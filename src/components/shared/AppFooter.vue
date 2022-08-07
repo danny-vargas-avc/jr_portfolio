@@ -8,28 +8,10 @@ export default {
 			socials: [
 				{
 					id: 1,
-					name: 'GitHub',
-					icon: 'github',
-					url: 'https://github.com/realstoman',
-				},
-				{
-					id: 2,
-					name: 'Twitter',
-					icon: 'twitter',
-					url: 'https://twitter.com/realstoman',
-				},
-				{
-					id: 3,
-					name: 'Medium',
-					icon: 'book',
-					url: 'https://stoman.medium.com',
-				},
-				{
-					id: 4,
-					name: 'Instagram',
-					icon: 'instagram',
-					url: 'https://instagram.com/realstoman',
-				},
+					name: 'Linkedin',
+					icon: 'linkedin',
+					url: 'https://www.linkedin.com/in/efrain-vargas-9903471b5',
+				}
 			],
 		};
 	},
@@ -49,8 +31,7 @@ export default {
 		>
 			<!-- Footer social links -->
 			<div
-				class="flex flex-col justify-center items-center mb-12 sm:mb-20"
-			>
+				class="flex flex-col justify-center items-center mb-12 sm:mb-20">
 				<p
 					class="font-general-semibold text-3xl sm:text-4xl font-semibold text-primary-dark dark:text-primary-light mb-5"
 				>
