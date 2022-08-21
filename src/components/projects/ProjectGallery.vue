@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
+	<div class="grid grid-cols-1 sm:grid-cols-1 sm:gap-10 mt-12">
 		<div
 			class="mb-10 sm:mb-0"
 			v-for="projectImage in projectImages"
