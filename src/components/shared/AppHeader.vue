@@ -83,10 +83,9 @@ export default {
 			<div class="flex justify-between items-center px-4 sm:px-0">
 				<!-- Header logos -->
 				<div>
-					<router-link to="/">
+					<router-link class="home-logo" to="/">
 						<img
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
+							src="@/assets/images/eFRAIN.png"
 							alt="Dark Logo"/>
 					</router-link>
 				</div>
@@ -142,5 +141,14 @@ export default {
 	@apply text-indigo-700;
 	@apply dark:text-indigo-400;
 	@apply font-medium;
+}
+
+.home-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 14rem;
+	height: 7rem;
+	object-fit: contain;
 }
 </style>
