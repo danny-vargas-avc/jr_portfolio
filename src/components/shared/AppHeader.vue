@@ -80,7 +80,7 @@ export default {
 		<div
 			class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6">
 			<!-- Header menu links and small screen hamburger menu -->
-			<div class="flex justify-between items-center px-4 sm:px-0">
+			<div class="flex justify-between items-center px-4 sm:px-0 why">
 				<!-- Header logos -->
 				<div>
 					<router-link class="home-logo" to="/">
@@ -147,8 +147,18 @@ export default {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 14rem;
+	width: 20rem;
 	height: 7rem;
 	object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+	.home-logo {
+		width: 15rem;
+	}
+
+	.why {
+		padding: 1rem !important;
+	}
 }
 </style>
