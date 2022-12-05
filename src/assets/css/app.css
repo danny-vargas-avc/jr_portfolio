@@ -1,3 +1,5 @@
+
+
 /*== 
  * Vue.js & TailwindCSS Portfolio Main CSS File
  * Powered by: @realstoman
@@ -18,6 +20,13 @@ body {
 /* Theme Colors */
 
 /* Fonts */
+@font-face {
+	font-family: 'Library-3AM';
+	src: url('../fonts/Library3am.otf') format('woff2');
+	font-weight: 200 700;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'GeneralSans-Variable';
 	src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),

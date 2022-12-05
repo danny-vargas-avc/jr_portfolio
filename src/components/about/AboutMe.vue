@@ -1,5 +1,31 @@
 <script>
+import ContactDetails from '@/components/contact/ContactDetails.vue';
+
 export default {
+	components: {
+		ContactDetails,
+	},
+	data: () => {
+		return {
+			contacts: [
+				{
+					id: 1,
+					name: 'Huntington Beach, CA',
+					icon: 'map-pin',
+				},
+				{
+					id: 2,
+					name: 'evargasarch@gmail.com',
+					icon: 'mail',
+				},
+				{
+					id: 3,
+					name: '(714) 752-9761',
+					icon: 'phone',
+				},
+			],
+		};
+	},
 	setup() {
 		return {
 			bios: [
@@ -39,6 +65,8 @@ export default {
 			>
 				{{ bio.bio }}
 			</p>
+			<!-- Contact details -->
+			<ContactDetails :contacts="contacts" />
 		</div>
 	</div>
 </template>
